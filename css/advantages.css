@@ -1,0 +1,32 @@
+.advantages__section {
+  background-color: var(--bg);
+  padding: 120px 0px;
+  margin: 0px;
+}
+
+.advantages__title {
+  color: var(--white);
+}
+
+.advantages__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  column-gap: 30px;
+  row-gap: 50px;
+}
+
+.advantage {
+  padding: 15px 30px 40px 30px;
+  background-color: var(--white);
+  border-radius: 30px;
+}
+
+.advantage__icon {
+  display: block;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.advantage__title {
+  margin-bottom: 15px;
+}

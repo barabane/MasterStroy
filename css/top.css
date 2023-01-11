@@ -1,0 +1,111 @@
+.top__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 350px);
+  row-gap: 17px;
+  column-gap: 30px;
+}
+
+.big-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  border-radius: 30px;
+  box-shadow: var(--shadow);
+}
+
+.big-card__about {
+  padding: 20px 23px;
+}
+
+.big-card__name {
+  margin-bottom: 12px;
+}
+
+.big-card__description {
+  margin-bottom: 10px;
+}
+
+.big-card__option:not(:last-child) {
+  margin-bottom: 5px;
+}
+
+.big-card__features {
+  position: relative;
+  height: 350px;
+  width: 180px;
+  padding: 20px 30px 20px 20px;
+  background-color: var(--bg);
+}
+
+.big-card__colors {
+  display: flex;
+  align-items: center;
+}
+
+.big-card__color {
+  width: 15px;
+  height: 15px;
+}
+
+.big-card__color:not(:last-child) {
+  margin-right: 10px;
+}
+
+.big-card__feature-item:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.big-card__feature-name {
+  color: var(--white);
+}
+
+.big-card__feature-price {
+  color: var(--white);
+}
+
+.big-card__plus-btn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: 0;
+  bottom: 0;
+  width: 69px;
+  height: 56px;
+  background-color: var(--primary);
+  border-radius: 30px 0px 0px 0px;
+}
+
+.big-card__color--1 {
+  background-color: #737373;
+}
+
+.big-card__color--2 {
+  background-color: #9c0909;
+}
+
+.big-card__color--3 {
+  background-color: #d48d37;
+}
+
+.big-card__color--4 {
+  background-color: #964b00;
+}
+
+.big-card__color--5 {
+  background-color: #dc143c;
+}
+
+.big-card__color--6 {
+  background-color: #49423d;
+}
+
+.big-card__color--7 {
+  background-color: #d77d31;
+}
+
+.big-card__color--8 {
+  background-color: #000000;
+}

@@ -1,0 +1,40 @@
+@import url("reusable.css");
+@import url("header.css");
+@import url("offer.css");
+@import url("catalog.css");
+@import url("about.css");
+@import url("top.css");
+@import url("factory.css");
+@import url("cases.css");
+@import url("advantages.css");
+@import url("footer.css");
+@import url("media.css");
+
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --bg: #404040;
+  --primary: #e05000;
+  --fs-12: 12px;
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-20: 20px;
+  --fs-35: 35px;
+  --fs-40: 40px;
+  --shadow: 4px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  padding: 0px;
+  /* font-family: "Roboto", sans-serif; */
+}
+
+a {
+  text-decoration: none;
+}

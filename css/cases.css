@@ -1,0 +1,16 @@
+.cases__description {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.cases__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 40px;
+}
+
+.cases__photo {
+  border-radius: 30px;
+}

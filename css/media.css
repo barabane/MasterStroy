@@ -1,0 +1,165 @@
+@media (max-width: 1190px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .advantages__section {
+    margin-bottom: 0px;
+  }
+
+  .section {
+    margin-bottom: 60px;
+  }
+
+  .header__nav,
+  .header__item:nth-child(1) {
+    display: none;
+  }
+
+  .about__body {
+    padding: 60px 40px 46px 34px;
+  }
+
+  .section__title {
+    margin-bottom: 40px;
+  }
+
+  .top__grid {
+    grid-template-columns: repeat(1, 510px);
+    justify-content: center;
+  }
+
+  .factory__section {
+    padding: 60px 0px;
+  }
+
+  .factory__container {
+    flex-direction: column;
+  }
+
+  .factory__side-features {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+
+  .factory__feature:not(:last-child) {
+    margin: 0px;
+  }
+
+  .factory__side-logo {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 810px) {
+  .container {
+    max-width: 512px;
+  }
+
+  .header__block--top {
+    display: none;
+  }
+
+  .offer__title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .catalog__grid {
+    gap: 30px;
+  }
+
+  .big-title-1 {
+    font-size: 32px;
+  }
+
+  .about__body {
+    padding: 30px 20px 23px 16px;
+  }
+
+  .factory__side-features {
+    flex-wrap: wrap;
+  }
+
+  .factory__feature:not(:last-child) {
+    margin: auto;
+    margin-bottom: 15px;
+  }
+
+  .factory__feature {
+    margin: auto;
+  }
+
+  .cases__photo {
+    margin: auto;
+  }
+
+  .cases__grid {
+    grid-template-columns: repeat(auto-fit, 1fr);
+  }
+
+  .advantages__grid {
+    grid-template-columns: repeat(auto-fit, 1fr);
+  }
+
+  .footer__container {
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+  }
+
+  .footer__column {
+    justify-self: start;
+  }
+
+  .footer__column--main {
+    grid-column-end: 1;
+  }
+
+  .about__section {
+    height: auto;
+  }
+
+  .about__img {
+    display: none;
+  }
+}
+
+@media (max-width: 530px) {
+  .container {
+    max-width: 85%;
+  }
+
+  .offer__title {
+    font-size: 31px;
+  }
+
+  .big-title-1 {
+    font-size: 29px;
+  }
+
+  .top__grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .big-card {
+    flex-direction: column;
+  }
+
+  .big-card__features {
+    padding: 20px;
+    width: 100%;
+    height: auto;
+  }
+
+  .big-card__features-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .big-card__feature-item {
+    width: 50%;
+  }
+}
