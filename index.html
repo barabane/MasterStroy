@@ -71,18 +71,24 @@
             class="header__logo"
           />
           <nav class="header__nav">
-            <a href="#" class="small-text-bold header__nav-link">О компании</a>
-            <a href="#" class="small-text-bold header__nav-link"
+            <a href="#about" class="small-text-bold header__nav-link"
+              >О компании</a
+            >
+            <a href="#catalog" class="small-text-bold header__nav-link"
               >Укладка тротуарной плитки</a
             >
-            <a href="#" class="small-text-bold header__nav-link">Портфолио</a>
-            <a href="#" class="small-text-bold header__nav-link"
+            <a href="#cases" class="small-text-bold header__nav-link"
+              >Портфолио</a
+            >
+            <a href="#factory" class="small-text-bold header__nav-link"
               >Полезно знать</a
             >
-            <a href="#" class="small-text-bold header__nav-link"
+            <a href="#advantages" class="small-text-bold header__nav-link"
               >Доставка и оплата</a
             >
-            <a href="#" class="small-text-bold header__nav-link">Контакты</a>
+            <a href="#contacts" class="small-text-bold header__nav-link"
+              >Контакты</a
+            >
           </nav>
         </div>
       </div>
@@ -103,7 +109,7 @@
         </div>
       </div>
     </section>
-    <section class="section catalog__section">
+    <section class="section catalog__section" id="catalog">
       <div class="container catalog__container">
         <h2 class="big-title-1 section__title catalog__title">
           Каталог продукции
@@ -185,7 +191,7 @@
         <button class="btn catalog__btn">Больше товаров</button>
       </div>
     </section>
-    <section class="section about__section">
+    <section class="section about__section" id="about">
       <img
         src="images/png/development.png"
         alt="процесс строительства"
@@ -691,7 +697,7 @@
         </div>
       </div>
     </section>
-    <section class="section factory__section">
+    <section class="section factory__section" id="factory">
       <h2 class="section__title big-title-1 factory__title">О производстве</h2>
       <div class="container factory__container">
         <div class="factory__side">
@@ -748,7 +754,7 @@
         </div>
       </div>
     </section>
-    <section class="section cases__section">
+    <section class="section cases__section" id="cases">
       <div class="container cases__container">
         <h2 class="section__title big-title-1 cases__title">Наши работы</h2>
         <p class="regular-text cases__description">
@@ -812,7 +818,7 @@
         </div>
       </div>
     </section>
-    <section class="section advantages__section">
+    <section class="section advantages__section" id="advantages">
       <div class="container advantages__container">
         <h2 class="section__title big-title-1 advantages__title">
           Наши преимущества
@@ -913,6 +919,7 @@
       width="100%"
       height="500px"
       frameborder="0"
+      id="contacts"
     ></iframe>
     <footer class="footer">
       <div class="container footer__container">
@@ -1004,6 +1011,7 @@
       <span class="regular-text footer__by">© 2023 ООО "Мастер строй"</span>
     </footer>
   </body>
+  <script src="/js/main.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init();
